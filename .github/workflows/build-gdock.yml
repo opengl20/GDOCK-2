@@ -10,7 +10,7 @@ on:
     types: [published]
   push:
     branches: 
-      21.02
+      - main
   # schedule:
     # - cron: 0 20 * * *
 jobs:
