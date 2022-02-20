@@ -10,7 +10,7 @@ on:
     types: [published]
   push:
     branches: 
-      - master
+      - openwrt-21.02
   # schedule:
     # - cron: 0 20 * * *
 jobs:
@@ -32,7 +32,7 @@ jobs:
 
     - name: Clone source code
       run: |
-        git clone https://github.com/coolsnowwolf/lede lede
+        git clone https://github.com/Lienol/openwrt openwrt
 
     - name: enable magic
       run: cd lede && echo 'src-git helloworld https://github.com/fw876/helloworld'>>./feeds.conf.default
