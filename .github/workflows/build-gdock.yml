@@ -32,7 +32,7 @@ jobs:
 
     - name: Clone source code
       run: |
-        git clone https://github.com/Lienol/openwrt openwrt
+        git clone -b 21.02 --single-branch https://github.com/Lienol/openwrt openwrt
 
     - name: enable magic
       run: cd lede && echo 'src-git helloworld https://github.com/fw876/helloworld'>>./feeds.conf.default
