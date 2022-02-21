@@ -32,13 +32,12 @@ git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverch
 git clone https://github.com/kenzok8/openwrt-packages ../package/openwrt-packages
 git clone https://github.com/kenzok8/small ../package/small
 git clone https://github.com/jerrykuku/lua-maxminddb ../diy/lua-maxminddb
-git clone https://github.com/garypang13/smartdns-le ../diy/smartdns-le
 
 echo '下载AdGuard Home'
 #svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome ../diy/luci-app-adguardhome 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ../diy/luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ../diy/adguardhome
-svn co https://github.com/opengl20/luci-app-bypass ../diy/luci-app-bypass
+svn co https://github.com/jerrykuku/luci-app-vssr ../diy/luci-app-vssr
 
 #echo 'JD script'
 #git clone https://github.com/Cathgao/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
